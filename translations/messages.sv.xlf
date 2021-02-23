@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="sv">
+  <file id="messages.sv">
+    <unit id="Pily_qo" name="general.phrase.read-more">
+      <segment>
+        <source>general.phrase.read-more</source>
+        <target>Läs mer</target>
+      </segment>
+    </unit>
+    <unit id="Pily_ov" name="contenttypes.generic.overview">
+      <segment>
+        <source>contenttypes.generic.overview</source>
+        <target>Sid-översikt</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

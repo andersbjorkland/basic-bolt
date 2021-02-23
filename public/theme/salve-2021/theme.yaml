@@ -1,0 +1,15 @@
+# location for the embedded map
+location:
+    map_query: "Vega, Haninge"
+    address: |
+        136 58 Vega
+        Sweden
+    email: contact@salve.digital
+    phone: "+46 1-123456789"
+
+socials:
+    facebook: ~
+    twitter: https://twitter.com/abjorkland
+    instagram: ~
+    linkedin: ~
+    youtube: ~
