@@ -62,17 +62,21 @@ pages:
             type: text
             class: large
             group: content
+            localize: true
         teaser:
             type: textarea
             postfix: |
                 A text-only version of the content, that can be used to "tease"
                 the content when it's used in listing pages or search results.
+            localize: true
         image:
             type: image
             label: Highlighted image
+            localize: true
         body:
             type: redactor
             height: 300px
+            localize: true
         slug:
             type: slug
             uses: title
@@ -243,36 +247,43 @@ products:
             label: Name of this product
             group: Block
             fixture_format: '{catchPhrase}'
+            localize: true
         feature_1:
             type: text
             variant: inline
             fixture_format: '{bs}'
             label: "Key feature 1"
+            localize: true
         feature_2:
             type: text
             variant: inline
             fixture_format: '{bs}'
             label: "Key feature 2"
+            localize: true
         feature_3:
             type: text
             variant: inline
             fixture_format: '{bs}'
             label: "Key feature 3"
+            localize: true
         price:
             type: text
-            fixture_format: "€ {randomDigitNotNull}0,-"
+            fixture_format: "SEK {randomDigitNotNull}0,-"
         image:
             type: image
         teaser:
             type: redactor
             fixture_format: '{paragraph}'
+            localize: true
         content:
             type: redactor
+            localize: true
         slug:
             type: slug
             uses: [ title ]
             group: Meta
     show_on_dashboard: true
+    locales: [en, sv]
     viewless: false
     default_status: published
     searchable: false

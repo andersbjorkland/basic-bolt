@@ -7,16 +7,7 @@ main:
     link: homepage
     class: homepage
   - label: About
-    link: page/2
-    submenu:
-        - label: Entry 1
-          link: entry/39
-        - label: Entry 2
-          class: menu-item-class
-          link: entry/40
-        - link: entry/41 # These two have no `label`, so they will show up as the title
-        - class: sub-class
-          link: page/42
+    link: page/105
   - label: All pages
     link: pages/
 

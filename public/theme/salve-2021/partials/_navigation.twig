@@ -3,7 +3,7 @@
   <div x-data="{ open: false }"
     class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-4">
     <div class="py-4 flex flex-row items-center justify-between">
-      <a href="{{ path('homepage') }}" class="text-lg font-semibold tracking-widest currentColor uppercase rounded-lg focus:outline-none focus:shadow-outline">
+      <a href="{{ path('homepage') ~ app.request.locale }}" class="text-lg font-semibold tracking-widest currentColor uppercase rounded-lg focus:outline-none focus:shadow-outline">
         {% include 'img/logo.svg' %}
         {{ config.get('general/sitename') }}
       </a>
