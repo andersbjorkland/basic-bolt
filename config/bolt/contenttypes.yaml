@@ -167,6 +167,7 @@ people:
             variant: inline
             postfix: This person's job description, title or somesuch
             fixture_format: '{jobTitle}'
+            localize: true
         email:
             type: text
             variant: inline
@@ -175,6 +176,7 @@ people:
             type: image
         content:
             type: redactor
+            localize: true
         contentlink:
             type: text
             label: Link
@@ -186,6 +188,7 @@ people:
             uses: [ name ]
     icon_one: fa:user
     icon_many: fa:users
+    locales: [en, sv]
 
 
 # The 'Blocks' ContentType is a so-called 'resource ContentType'. This means

@@ -14,7 +14,7 @@
     <div class="flex flex-col p-4 w-full absolute bottom-0 left-0 z-20">
       <div class="w-full max-w-4xl mx-auto pb-20">
         <h1 class="text-2xl lg:text-5xl text-white font-semibold leading-tight" style="text-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.25);">
-          {{ record|title }}
+          {{ record|title|trans }}
         </h1>
         {% include 'partials/_record_header_author.twig' %}
       </div>
@@ -53,7 +53,7 @@
       {% for type, taxonomies in record|taxonomies %}
         {{ config.get('taxonomies/' ~ type).name }}:
         {% for taxonomy in taxonomies %}
-          <a href="{{ taxonomy|link }}" class="text-base md:text-sm text-teal no-underline hover:underline">{{ taxonomy.name }}</a>
+          <a href="{{ taxonomy|link }}" class="text-base md:text-sm text-teal no-underline hover:underline">{{ taxonomy.name|trans }}</a>
           {%- if not loop.last %}, {% endif %}
         {% endfor %}
         <br>

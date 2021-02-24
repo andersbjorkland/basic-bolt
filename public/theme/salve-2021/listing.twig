@@ -41,7 +41,7 @@
 						<span class="tracking-widest font-medium title-font text-gray-900">
 							{% for type, taxonomies in record|taxonomies %}
 								{% for taxonomy in taxonomies %}
-									{{ taxonomy.name }}
+									{{ taxonomy.name|trans }}
 								{% endfor %}
 							{% endfor %}
 						</span>

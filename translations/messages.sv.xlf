@@ -79,5 +79,221 @@
         <target>Nästa</target>
       </segment>
     </unit>
+    <unit id="hiQXuef" name="events">
+      <segment>
+        <source>events</source>
+        <target>events</target>
+      </segment>
+    </unit>
+    <unit id="Y71wZe8" name="life">
+      <segment>
+        <source>life</source>
+        <target>livet</target>
+      </segment>
+    </unit>
+    <unit id="VL2OqWf" name="crime">
+      <segment>
+        <source>crime</source>
+        <target>krim</target>
+      </segment>
+    </unit>
+    <unit id="TZQOSTI" name="paranormal">
+      <segment>
+        <source>paranormal</source>
+        <target>paranormal</target>
+      </segment>
+    </unit>
+    <unit id="pMxrwBq" name="privacy">
+      <segment>
+        <source>privacy</source>
+        <target>privacy</target>
+      </segment>
+    </unit>
+    <unit id="NTkPVFP" name="software">
+      <segment>
+        <source>software</source>
+        <target>mjukvara</target>
+      </segment>
+    </unit>
+    <unit id="6ayxhyD" name="The other stuff">
+      <segment>
+        <source>The other stuff</source>
+        <target>Andra saker</target>
+      </segment>
+    </unit>
+    <unit id="7aLIA3c" name="caption.dashboard">
+      <segment>
+        <source>caption.dashboard</source>
+        <target>Dashboard</target>
+      </segment>
+    </unit>
+    <unit id="1xlE8ex" name="caption.content">
+      <segment>
+        <source>caption.content</source>
+        <target>Innehåll</target>
+      </segment>
+    </unit>
+    <unit id="ZO.uqIZ" name="caption.settings">
+      <segment>
+        <source>caption.settings</source>
+        <target>Inställningar</target>
+      </segment>
+    </unit>
+    <unit id="zOLL.7E" name="caption.configuration">
+      <segment>
+        <source>caption.configuration</source>
+        <target>Konfigurering</target>
+      </segment>
+    </unit>
+    <unit id="ipmA6Ah" name="caption.users_permissions">
+      <segment>
+        <source>caption.users_permissions</source>
+        <target><![CDATA[Användare & tillstånd]]></target>
+      </segment>
+    </unit>
+    <unit id="kXNBV9S" name="caption.main_configuration">
+      <segment>
+        <source>caption.main_configuration</source>
+        <target>Main-konfiguration</target>
+      </segment>
+    </unit>
+    <unit id="_w7J5rZ" name="caption.contenttypes">
+      <segment>
+        <source>caption.contenttypes</source>
+        <target>Innehållstyper</target>
+      </segment>
+    </unit>
+    <unit id="drK.0GZ" name="caption.taxonomies">
+      <segment>
+        <source>caption.taxonomies</source>
+        <target>Taxanomier</target>
+      </segment>
+    </unit>
+    <unit id="2RUXD4A" name="caption.menu_setup">
+      <segment>
+        <source>caption.menu_setup</source>
+        <target>Meny-inställning</target>
+      </segment>
+    </unit>
+    <unit id="wBKDkwl" name="caption.routing_setup">
+      <segment>
+        <source>caption.routing_setup</source>
+        <target>Route-inställning</target>
+      </segment>
+    </unit>
+    <unit id="i4cbdta" name="caption.all_configuration_files">
+      <segment>
+        <source>caption.all_configuration_files</source>
+        <target>Alla konfigureringsfiler</target>
+      </segment>
+    </unit>
+    <unit id="OpKTKAL" name="caption.maintenance">
+      <segment>
+        <source>caption.maintenance</source>
+        <target>Underhåll</target>
+      </segment>
+    </unit>
+    <unit id="mfvtHPQ" name="caption.extensions">
+      <segment>
+        <source>caption.extensions</source>
+        <target>Tillägg</target>
+      </segment>
+    </unit>
+    <unit id="2MtT_h0" name="caption.logviewer">
+      <segment>
+        <source>caption.logviewer</source>
+        <target>Loggvy</target>
+      </segment>
+    </unit>
+    <unit id="Dvu2HQx" name="caption.api">
+      <segment>
+        <source>caption.api</source>
+        <target>API</target>
+      </segment>
+    </unit>
+    <unit id="K6TmK4B" name="caption.clear_cache">
+      <segment>
+        <source>caption.clear_cache</source>
+        <target>Rensa cachen</target>
+      </segment>
+    </unit>
+    <unit id="dd5MzCM" name="caption.translations">
+      <segment>
+        <source>caption.translations</source>
+        <target><![CDATA[Översättningar & etiketter]]></target>
+      </segment>
+    </unit>
+    <unit id="wLaDaK5" name="caption.about_bolt">
+      <segment>
+        <source>caption.about_bolt</source>
+        <target>Om Bolt CMS</target>
+      </segment>
+    </unit>
+    <unit id="l4yt0BE" name="caption.file_management">
+      <segment>
+        <source>caption.file_management</source>
+        <target>Filhantering</target>
+      </segment>
+    </unit>
+    <unit id="bq6bSf4" name="caption.uploaded_files">
+      <segment>
+        <source>caption.uploaded_files</source>
+        <target>Uppladdade filer</target>
+      </segment>
+    </unit>
+    <unit id="K4D568R" name="caption.view_edit_templates">
+      <segment>
+        <source>caption.view_edit_templates</source>
+        <target>Se eller redigera twig-mallar</target>
+      </segment>
+    </unit>
+    <unit id="UZFanGF" name="about.bolt_documentation">
+      <segment>
+        <source>about.bolt_documentation</source>
+        <target>Bolt-dokumentation</target>
+      </segment>
+    </unit>
+    <unit id="b_RPpcB" name="general.greeting">
+      <segment>
+        <source>general.greeting</source>
+        <target>Hej %name%!</target>
+      </segment>
+    </unit>
+    <unit id="bmdn3u9" name="action.logout">
+      <segment>
+        <source>action.logout</source>
+        <target>Logga ut</target>
+      </segment>
+    </unit>
+    <unit id="zOfpTLD" name="action.edit_profile">
+      <segment>
+        <source>action.edit_profile</source>
+        <target>Redigera profil</target>
+      </segment>
+    </unit>
+    <unit id="k.JymqB" name="about.visit_bolt">
+      <segment>
+        <source>about.visit_bolt</source>
+        <target>Besök Bolt</target>
+      </segment>
+    </unit>
+    <unit id="wGlnx8X" name="general.phrase.search">
+      <segment>
+        <source>general.phrase.search</source>
+        <target>Sök</target>
+      </segment>
+    </unit>
+    <unit id="O_m7mx1" name="listing.placeholder_search">
+      <segment>
+        <source>listing.placeholder_search</source>
+        <target>Sök efter något...</target>
+      </segment>
+    </unit>
+    <unit id="jXAelLe" name="admin_sidebar_toggler.toggle">
+      <segment>
+        <source>admin_sidebar_toggler.toggle</source>
+        <target><![CDATA[<span class="sr-only">Toggla </span>meny]]></target>
+      </segment>
+    </unit>
   </file>
 </xliff>
