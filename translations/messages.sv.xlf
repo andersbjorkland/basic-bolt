@@ -13,5 +13,17 @@
         <target>Sid-översikt</target>
       </segment>
     </unit>
+    <unit id="Pily_ol" name="action.search">
+      <segment>
+        <source>action.search</source>
+        <target>Sök</target>
+      </segment>
+    </unit>
+    <unit id="Pily_oh" name="general.phrase.search-ellipsis">
+      <segment>
+        <source>general.phrase.search-ellipsis</source>
+        <target>...</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

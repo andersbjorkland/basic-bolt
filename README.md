@@ -65,3 +65,22 @@ Log in using the credentials you created when setting up the first user.
 
 If you'd like to contribute, please check [Bolt's core repository](https://github.com/bolt/core/blob/master/CONTRIBUTING.md) 
 and read the ["Contributing to Bolt"](https://docs.bolt.cm/4.0/other/contributing) documentation page.
+
+## Deploying
+### Shared hosting
+When on shared hosting you most often will have to change how your project is structured. 
+The content of your project's public folder will need to be placed on the shared host's designated 
+public folder, e.g. www_public or public_html or similar. 
+ 
+You will also have to change (or add) a key value pair in **compose.json** so that the key extra.public-dir points to the public-path.
+```
+{
+    "...": "...",
+    "extra": {
+        "...": "...",
+        "public-dir": "my_new_public_dir"
+    }
+}
+```
+
+In the official docs from Symfony: ["Override the Public Directory"](https://symfony.com/doc/current/configuration/override_dir_structure.html#override-the-public-directory)
