@@ -1,28 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="sv">
   <file id="messages.sv">
+    <unit id="OnhpU4i" name="Home">
+      <segment>
+        <source>Home</source>
+        <target>Hem</target>
+      </segment>
+    </unit>
+    <unit id="Tvyg0Qx" name="About">
+      <segment>
+        <source>About</source>
+        <target>Om</target>
+      </segment>
+    </unit>
+    <unit id="kDVCElw" name="All pages">
+      <segment>
+        <source>All pages</source>
+        <target>Alla sidor</target>
+      </segment>
+    </unit>
+    <unit id="wpYC9Hd" name="Read More">
+      <segment>
+        <source>Read More</source>
+        <target>Läs Mer</target>
+      </segment>
+    </unit>
+    <unit id="SolqMUs" name="Entry 1">
+      <segment>
+        <source>Entry 1</source>
+        <target>Inlägg 1</target>
+      </segment>
+    </unit>
+    <unit id="jtsBP4S" name="Entry 2">
+      <segment>
+        <source>Entry 2</source>
+        <target>Inlägg 2</target>
+      </segment>
+    </unit>
     <unit id="Pily_qo" name="general.phrase.read-more">
       <segment>
         <source>general.phrase.read-more</source>
         <target>Läs mer</target>
       </segment>
     </unit>
-    <unit id="Pily_ov" name="contenttypes.generic.overview">
+    <unit id="wNEwZy_" name="contenttypes.generic.overview">
       <segment>
         <source>contenttypes.generic.overview</source>
         <target>Sid-översikt</target>
       </segment>
     </unit>
-    <unit id="Pily_ol" name="action.search">
+    <unit id="odDw0du" name="action.search">
       <segment>
         <source>action.search</source>
         <target>Sök</target>
       </segment>
     </unit>
-    <unit id="Pily_oh" name="general.phrase.search-ellipsis">
+    <unit id="gB.9hTu" name="general.phrase.search-ellipsis">
       <segment>
         <source>general.phrase.search-ellipsis</source>
         <target>...</target>
+      </segment>
+    </unit>
+    <unit id="UNBaDz." name="general.phrase.edit">
+      <segment>
+        <source>general.phrase.edit</source>
+        <target>Redigera</target>
+      </segment>
+    </unit>
+    <unit id="AMxTho9" name="pager.previous">
+      <segment>
+        <source>pager.previous</source>
+        <target>Föregående</target>
+      </segment>
+    </unit>
+    <unit id="L_YQKUn" name="pager.next">
+      <segment>
+        <source>pager.next</source>
+        <target>Nästa</target>
       </segment>
     </unit>
   </file>

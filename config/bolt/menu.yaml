@@ -9,9 +9,9 @@ main:
   - label: About
     link: page/2
     submenu:
-        - label: Sub 1
+        - label: Entry 1
           link: entry/39
-        - label: Sub 2
+        - label: Entry 2
           class: menu-item-class
           link: entry/40
         - link: entry/41 # These two have no `label`, so they will show up as the title

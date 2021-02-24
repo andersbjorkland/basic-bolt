@@ -81,6 +81,7 @@ pages:
             type: templateselect
             filter: '/^[^_].*\.twig$/'
     taxonomy: [ groups ]
+    locales: ["en", "sv"]
     records_per_page: 5
     order: id
 
@@ -104,16 +105,19 @@ entries:
             type: text
             class: large
             group: Entry
+            localize: true
         teaser:
             type: textarea
             postfix: |
                 A text-only version of the content, that can be used to "tease"
                 the content when it's used in listing pages or search results.
+            localize: true
         image:
             type: image
             upload: entries
         body:
             type: article
+            localize: true
         video:
             type: embed
         slug:
@@ -130,6 +134,7 @@ entries:
             label: Author of this Entry
             required: false
     taxonomy: [ categories, tags, groups ]
+    locales: [en, sv]
     record_template: entry.twig
     listing_template: listing.twig
     listing_records: 10
