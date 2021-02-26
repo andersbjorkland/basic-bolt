@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3193e5f37297e9eba1fff61ce8b7e481",
+    "content-hash": "2fa4d47709eb9b4cfeff474203f61383",
     "packages": [
+        {
+            "name": "andersbjorkland/example-extension",
+            "version": "0.1",
+            "dist": {
+                "type": "path",
+                "url": "../example-extension",
+                "reference": "cca442971e5b40aef6ecbcddb6af4bf4da7bba2e"
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "twig/twig": "^2.12 | ^3.0"
+            },
+            "require-dev": {
+                "bolt/core": "^4.0.0",
+                "symplify/easy-coding-standard": "^6.0"
+            },
+            "type": "bolt-extension",
+            "extra": {
+                "entrypoint": "AndersBjorkland\\ExampleExtension\\Extension"
+            },
+            "autoload": {
+                "psr-4": {
+                    "AndersBjorkland\\ExampleExtension\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anders Björkland",
+                    "email": "contact@andersbjorkland.online"
+                }
+            ],
+            "description": "A simple extension for Bolt CMS.",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "api-platform/core",
             "version": "v2.5.10",
