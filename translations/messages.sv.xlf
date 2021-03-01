@@ -46,7 +46,7 @@
     <unit id="wNEwZy_" name="contenttypes.generic.overview">
       <segment>
         <source>contenttypes.generic.overview</source>
-        <target>Sid-översikt</target>
+        <target>Sidöversikt</target>
       </segment>
     </unit>
     <unit id="odDw0du" name="action.search">

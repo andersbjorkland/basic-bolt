@@ -1,0 +1,12 @@
+{% extends 'partials/_master.twig' %}
+{% set relatedrecords = client|related %}
+{% block main %}
+  <div class="mt-12 bg-white">
+    <h1 class="text-4xl">{{ client.name }}</h1>
+    {% for related in relatedrecords %}
+      <a href="{{ related|link }}">
+        <p>{{ related.title }}</p>
+      </a>
+    {% endfor %}
+  </div>
+{% endblock main %}

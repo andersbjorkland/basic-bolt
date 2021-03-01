@@ -16,8 +16,7 @@
         "bolt/newswidget": "^1.1",
         "bolt/redactor": "^1.0",
         "bolt/themes": "^3.3",
-        "symfony/flex": "^1.6",
-        "andersbjorkland/example-extension": "^0.1.0"
+        "symfony/flex": "^1.6"
     },
     "autoload": {
         "psr-4": {
