@@ -1,7 +1,7 @@
 <?php
 namespace Deployer;
 
-require 'recipe/symfony.php';
+require 'recipe/symfony4.php';
 
 // Project name
 set('application', 'bolt');
@@ -26,7 +26,7 @@ set('allow_anonymous_stats', false);
 
 host('horseish')
     ->roles('app')
-    ->set('deploy_path', '/customers/b/b/f/horseish.online/httpd.www/bolt');
+    ->set('deploy_path', '/customers/b/b/f/horseish.online/httpd.private/bolt');
     
 // Tasks
 
@@ -43,8 +43,13 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
+task('copy:public', function() {
+    run('cp -R {{release_path}}/public/*  /www');
+});
+
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
+after('deploy:unlock', 'copy:public');
 
 // Migrate database before symlink new release.
 

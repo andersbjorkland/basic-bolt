@@ -52,5 +52,8 @@
             "require": "^5.1"
         },
         "public-dir": "public"
+    },
+    "require-dev": {
+        "deployer/recipes": "^6.2"
     }
 }
