@@ -52,8 +52,5 @@
             "require": "^5.1"
         },
         "public-dir": "public"
-    },
-    "require-dev": {
-        "easycorp/easy-deploy-bundle": "^1.0"
     }
 }
