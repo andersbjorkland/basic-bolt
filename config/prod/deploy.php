@@ -15,7 +15,7 @@ return new class extends DefaultDeployer
             ->repositoryUrl('git@github.com:andersbjorkland/basic-bolt.git')
             // the repository branch to deploy
             ->repositoryBranch('master')
-            ->webDir('/customers/b/b/f/horseish.online/httpd.www')
+            //->webDir('../../www')
         ;
     }
 
@@ -28,7 +28,7 @@ return new class extends DefaultDeployer
     // run some local or remote commands after the deployment is finished
     public function beforeFinishingDeploy()
     {
-        $this->runRemote('cp -R {{ project_dir }}/public/* {{web_dir}}');
+        //$this->runRemote('cp -R {{ project_dir }}/public/* {{web_dir}}');
         // $this->runRemote('{{ console_bin }} app:my-task-name');
         // $this->runLocal('say "The deployment has finished."');
     }
