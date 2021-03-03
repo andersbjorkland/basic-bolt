@@ -26,7 +26,7 @@ set('allow_anonymous_stats', false);
 
 host('horseish')
     ->roles('app')
-    ->set('deploy_path', '/customers/b/b/f/horseish.online/httpd.private/bolt');
+    ->set('deploy_path', '/customers/b/b/f/horseish.online/httpd.www/bolt');
     
 // Tasks
 
