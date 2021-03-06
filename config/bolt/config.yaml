@@ -12,7 +12,7 @@ secret: '%env(APP_SECRET)%'
 # Dont edit the provided templates directly, because they _will_ get updated
 # in next releases. If you wish to modify a default theme, copy its folder, and
 # change the name here accordingly.
-theme: salve-2021
+theme: salve-base
 #theme: skeleton
 
 # Set the timezone to be used on the website. For a list of valid timezone
@@ -21,7 +21,7 @@ theme: salve-2021
 
 # Set the default time format used on this website. For a list of valid date
 # format settings, see: https://www.php.net/manual/en/function.date.php
-date_format: 'F j, Y H:i'
+date_format: 'j F Y H:i'
 
 # If your site is reachable under different urls (say, both blog.example.org/
 # as well as example.org/), its a good idea to set one of these as the

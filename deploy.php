@@ -43,8 +43,12 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
+task('bolt:init', function () {
+    run('cd {{release_path}} && php /customers/b/b/f/horseish.online/httpd.private/.local/bin/composer.phar install --no-dev --optimize-autoloader');
+});
+
 task('copy:public', function() {
-    run('cp -R {{release_path}}/public/*  /www');
+    run('cp -R {{release_path}}/public/*  /www && cp -R {{release_path}}/public/.[^.]* /www');
 });
 
 // [Optional] if deploy fails automatically unlock.

@@ -1,4 +1,6 @@
 {
+    "name": "andersbjorkland/basic-bolt",
+    "description": "A test implementation of Bolt CMS",
     "type": "project",
     "license": "proprietary",
     "repositories": [
